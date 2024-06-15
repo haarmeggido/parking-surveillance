@@ -1,0 +1,11 @@
+Model jeszcze trzeba dotrenować, bo nie zawsze wykrywa samochody. zajmę się tym, wystarczy jedynie dorzucić troublesome frames do datasetu
+(no, ale dopiero teraz mam framy do zobaczenia)
+
+Folder wideo zajmuje 116gb,
+Same wycięte framy to dataset 42k obrazów zajmujący 15gb
+
+są minuty w których nie ma wideo, bo nie uznawałem sekund w przetwarzaniu nazwy, 
+a minutowe wideo było postowane co 1m 0.3s, czyli raz na 3-5h jest pusta minuta bez wideo
+
+Jakiś basic error check w logice, żeby jeżeli w następujących framach 'left' = [1,1,0,1,1] to raczej model nie wykrył, 
+a nie samochody zmieniły się w 20 sekund
