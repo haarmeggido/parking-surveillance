@@ -165,4 +165,5 @@ cython_debug/
 frames.zip
 train_results/Parking cars.v1i.yolov5pytorch.zip
 results/*.png
+results/f2
 to_label
