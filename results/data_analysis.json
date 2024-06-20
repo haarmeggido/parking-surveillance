@@ -1,18 +1,18 @@
 {
     "left": {
-        "min_duration": 30.0,
-        "max_duration": 28280.0,
-        "avg_duration": 3435.294117647059
+        "min_duration": "0.0 hours 0.0 minutes, 30 seconds",
+        "max_duration": "7.0 hours 51.0 minutes, 20 seconds",
+        "avg_duration": "0.0 hours 57.0 minutes, 15 seconds"
     },
     "center": {
-        "min_duration": 30.0,
-        "max_duration": 102450.0,
-        "avg_duration": 10116.829268292682
+        "min_duration": "0.0 hours 0.0 minutes, 30 seconds",
+        "max_duration": "28.0 hours 27.0 minutes, 30 seconds",
+        "avg_duration": "2.0 hours 48.0 minutes, 36 seconds"
     },
     "right": {
-        "min_duration": 1200.0,
-        "max_duration": 235130.0,
-        "avg_duration": 64668.57142857143
+        "min_duration": "0.0 hours 20.0 minutes, 0 seconds",
+        "max_duration": "65.0 hours 18.0 minutes, 50 seconds",
+        "avg_duration": "17.0 hours 57.0 minutes, 48 seconds"
     },
     "taken_percentage": {
         "left": [
